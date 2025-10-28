@@ -1,12 +1,8 @@
 ---
-title: AIとGitHub Actionsで"マルチ投稿ブログ"を自動化してみた（第1回）
-emoji: 📝
-type: tech
-topics:
-  - nextjs
-  - githubactions
-  - qiita
-  - zenn
+title: "AIとGitHub Actionsで\"マルチ投稿ブログ\"を自動化してみた（第1回）"
+emoji: "📝"
+type: "tech"
+topics: ["nextjs","githubactions","qiita","zenn"]
 published: true
 ---
 

@@ -1,12 +1,8 @@
 ---
-title: SAA模試の後半バテを防ぐ：65問を集中し切る6つの戦術
-emoji: 📝
-type: tech
-topics:
-  - aws
-  - saa
-  - 模試
-  - 集中力
+title: "SAA模試の後半バテを防ぐ：65問を集中し切る6つの戦術"
+emoji: "📝"
+type: "tech"
+topics: ["aws","saa","模試","集中力"]
 published: true
 ---
 

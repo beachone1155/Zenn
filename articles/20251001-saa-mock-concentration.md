@@ -1,27 +1,15 @@
 ---
 title: SAA模試の後半バテを防ぐ：65問を集中し切る6つの戦術
-slug: saa-mock-concentration
-summary: SAA模試で後半に集中力が落ちてしまう問題を解決する、実践的な集中力維持のテクニックを紹介します。
-tags: &ref_0
+emoji: 📝
+type: tech
+topics:
   - aws
   - saa
   - 模試
   - 集中力
-cover: ''
-lang: ja
-canonical_url: 'https://beachone1155.vercel.app/blog/saa-mock-concentration'
-publish_on:
-  - qiita
-  - zenn
-  - devto
-draft: false
-created_at: '2025-10-28'
-updated_at: '2025-10-28'
-emoji: "\U0001F4DD"
-type: tech
-topics: *ref_0
 published: true
 ---
+
 
 AWS Solutions Architect Associate（SAA）の模試を解いているときに、こんな経験はありませんか？
 
@@ -165,3 +153,4 @@ SAAは「知識」だけでなく、**「持久戦スキル」**が問われる�
 
 ぜひ実践して、SAA合格を勝ち取りましょう！ 🚀
 
+ 

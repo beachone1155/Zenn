@@ -75,7 +75,7 @@ summary: "1つのMarkdownからQiita/Zenn/DEV.to/Vercelに自動投稿できる�
 tags: ["nextjs","githubactions","qiita","zenn"]
 cover: "/images/cover.png"
 lang: "ja"
-canonical_url: "https://beachone1155.github.io/engineer-blog-automation/blog/multi-blog-automation"
+canonical_url: "https://beachone1155.vercel.app/blog/multi-blog-automation"
 publish_on: ["qiita","zenn","devto"]
 draft: false
 created_at: "2025-10-25"

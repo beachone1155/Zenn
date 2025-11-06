@@ -26,15 +26,7 @@ Search タブでビジネス課題を入力すると、Sources タブに論文�
 
 ### 全体構成
 
-```
-[Next.js (Vercel)]
-  ↓ (API Route プロキシ)
-[FastAPI (Render)]
-  ↓
-[Neon PostgreSQL (pgvector)]
-  ↓
-[OpenAI API]
-```
+![R2E API アーキテクチャ構成図](/images/r2e-architecture.drawio.png)
 
 ### バックエンド構成
 
@@ -263,12 +255,15 @@ CREATE INDEX idx_papers_embedding ON papers
 
 ### Render デプロイ
 
-バックエンドは Render の無料枠でデプロイ。Dockerfile を使っています。
+バックエンドは Render の無料枠でデプロイ。**Docker で構築したものをそのまま Render にデプロイ**しています。
 
 - **URL**: `https://research-to-experience-api.onrender.com`
 - **Health Check Path**: `/health`
 - **Auto-Deploy**: Yes（GitHub main ブランチ連携）
 - **Instance Type**: Free
+- **ビルド方式**: Dockerfile ベース（`docker compose` でローカル開発、同じ Dockerfile を Render でも使用）
+
+ローカル開発時は `docker compose` で起動し、本番環境では同じ Dockerfile を Render でビルド・デプロイしています。これにより、ローカルと本番環境の一貫性を保っています。
 
 ## ハマりポイントと対応
 

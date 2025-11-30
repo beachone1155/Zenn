@@ -26,7 +26,7 @@ Search タブでビジネス課題を入力すると、Sources タブに論文�
 
 ### 全体構成
 
-![R2E API アーキテクチャ構成図](/images/r2e-architecture.drawio.png)
+![R2E API アーキテクチャ構成図](https://beachone1155.vercel.app/images/r2e-architecture.drawio.png)
 
 ### バックエンド構成
 

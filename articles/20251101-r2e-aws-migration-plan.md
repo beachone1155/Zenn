@@ -15,7 +15,7 @@ published: true
 
 現在の構成は以下の通りです：
 
-![R2E API アーキテクチャ構成図](/images/r2e-architecture.drawio.png)
+![R2E API アーキテクチャ構成図](https://beachone1155.vercel.app/images/r2e-architecture.drawio.png)
 
 ### フロントエンド
 - **Next.js on Vercel**: ブログサイトと `/portfolio/r2e` のデモUI
@@ -52,7 +52,7 @@ published: true
 
 ## 私が採用するAWS構成
 
-![R2E API アーキテクチャ構成図(AWS版)](/images/r2e-aws-migration-plan.drawio.png)
+![R2E API アーキテクチャ構成図(AWS版)](https://beachone1155.vercel.app/images/r2e-aws-migration-plan.drawio.png)
 
 ### フロントエンド
 
@@ -79,7 +79,7 @@ published: true
 
 ### 全体構成
 
-![R2E API AWS移行後のアーキテクチャ構成図](/images/r2e-aws-migration-plan.drawio.png)
+![R2E API AWS移行後のアーキテクチャ構成図](https://beachone1155.vercel.app/images/r2e-aws-migration-plan.drawio.png)
 
 ### データフロー
 

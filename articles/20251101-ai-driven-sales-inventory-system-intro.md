@@ -16,7 +16,7 @@ published: true
 
 「業務システムって堅苦しくて使いにくい...」そんなイメージを払拭すべく、モダンな技術スタックでサクサク動く、そしてAIの力で業務を効率化するシステムを目指しています。
 
-![OpsPilot Console Dashboard Mockup](/images/ai-driven-sales-inventory-system-intro-dashboard.png)
+![OpsPilot Console Dashboard Mockup](https://beachone1155.vercel.app/images/ai-driven-sales-inventory-system-intro-dashboard.png)
 *開発中のダッシュボード画面イメージ*
 
 ## アーキテクチャと技術スタック
@@ -37,7 +37,7 @@ OpsPilot Consoleは、**モノリポ構成**を採用しています。フロン
 Next.jsのApp Routerを使えば、サーバーサイドとクライアントサイドの境界を意識しつつも、シームレスにデータを扱えます。
 また、DBにはサーバーレスPostgresであるNeonを採用。Prismaとの相性も抜群で、スキーマ定義から型安全なDB操作までがスムーズに行えます。
 
-![OpsPilot Architecture Diagram](/images/ai-driven-sales-inventory-system-intro-arch.png)
+![OpsPilot Architecture Diagram](https://beachone1155.vercel.app/images/ai-driven-sales-inventory-system-intro-arch.png)
 *OpsPilot Consoleのアーキテクチャ概要*
 
 ## 実装の詳細
@@ -71,7 +71,7 @@ container-use enter feature-xyz
 container-use merge feature-xyz
 ```
 
-![Container Use Development Flow](/images/ai-driven-sales-inventory-system-intro-flow.png)
+![Container Use Development Flow](https://beachone1155.vercel.app/images/ai-driven-sales-inventory-system-intro-flow.png)
 *Container UseとGit Worktreeを活用した開発フロー*
 
 これにより、複数のタスクを並行して進める際も、環境の競合を気にせず集中できます。

@@ -36,7 +36,7 @@ Antigravityは、Googleが開発した次世代のAIネイティブエディタ�
 まずは公式サイトからインストーラーをダウンロードしてインストール。
 起動すると、「Open Agent Manager」という画面が表示され、そこからプロジェクトを開始できます。
 
-![Open Agent Manager](/images/antigravity-open-agent-manager.png)
+![Open Agent Manager](https://beachone1155.vercel.app/images/antigravity-open-agent-manager.png)
 *Open Agent Managerの起動画面（イメージ）*
 
 ### 2. 指示出し
@@ -44,7 +44,7 @@ Antigravityは、Googleが開発した次世代のAIネイティブエディタ�
 「Agent Manager」に作りたいアプリの概要を伝えます。
 今回は「Next.jsを使って、シンプルなAIチャットアプリを作って」と指示しました。
 
-![Agent Manager Chat](/images/antigravity-agent-manager-chat.png)
+![Agent Manager Chat](https://beachone1155.vercel.app/images/antigravity-agent-manager-chat.png)
 *Agentとのチャット画面（イメージ）*
 
 すると、Antigravityはすぐに実装プランを提示し、必要なファイルの作成やパッケージのインストールを開始！
@@ -55,7 +55,7 @@ Antigravityは、Googleが開発した次世代のAIネイティブエディタ�
 実装が完了すると、自動的にブラウザが立ち上がり、アプリが起動しました。
 デザインもモダンで、基本的な機能はしっかり動作しています。
 
-![Generated App](/images/antigravity-generated-app.png)
+![Generated App](https://beachone1155.vercel.app/images/antigravity-generated-app.png)
 *生成されたAIチャットアプリ（イメージ）*
 
 「ここをこう直して」といった追加の指示も、自然言語で伝えるだけですぐに反映されました。

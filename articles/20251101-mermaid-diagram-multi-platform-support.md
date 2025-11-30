@@ -151,7 +151,7 @@ export async function convertMermaidToImage(mermaidCode, outputPath) {
 1. Markdown内の ` ```mermaid ` ブロックを検出
 2. `@mermaid-js/mermaid-cli`で画像（PNG）に変換
 3. `public/images/diagrams/`に保存
-4. Markdownを `![diagram](/images/diagrams/xxx.png)` に置き換え
+4. Markdownを `![diagram](https://beachone1155.vercel.app/images/diagrams/xxx.png)` に置き換え
 
 #### メリット
 

@@ -1,5 +1,5 @@
 ---
-title: "GitHub Organizationに課金できなくても、AIエディタの暴走は止められる（pre-commit / pre-push + .cursor/rules）"
+title: "GitHub課金なしでAIエディタの暴走を止める（Git hooks + Cursor rules）"
 emoji: "📝"
 type: "tech"
 topics: ["ai","git","cursor","workflow"]
@@ -7,7 +7,7 @@ published: true
 ---
 
 
-# GitHub Organizationに課金できなくても、AIエディタの暴走は止められる（pre-commit / pre-push + .cursor/rules）
+# GitHub課金なしでAIエディタの暴走を止める（Git hooks + Cursor rules）
 
 ## はじめに（ある日、AIが気持ちよく“仕事”しすぎた）
 

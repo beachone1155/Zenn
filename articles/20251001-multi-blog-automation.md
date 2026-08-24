@@ -77,7 +77,12 @@ tags: ["nextjs","githubactions","qiita","zenn"]
 cover: "/images/cover.png"
 lang: "ja"
 canonical_url: "https://beachone1155.vercel.app/blog/multi-blog-automation"
-publish_on: ["qiita","zenn","devto"]
+publish_on:
+  - qiita
+  - zenn
+  - devto
+  - hatena
+  - x
 draft: false
 created_at: "2025-10-25"
 updated_at: "2025-10-25"

@@ -160,6 +160,7 @@ publish_on:
   - qiita
   - zenn
   - devto
+  - hatena
   - x
 ---
 ```

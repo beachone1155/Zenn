@@ -75,7 +75,7 @@ slug: "multi-blog-automation"
 summary: "1つのMarkdownからQiita/Zenn/DEV.to/Vercelに自動投稿できる仕組みを構築しました。"
 tags: ["nextjs","githubactions","qiita","zenn"]
 cover: "/images/cover.png"
-lang: "ja"
+lang: ja
 canonical_url: "https://beachone1155.vercel.app/blog/multi-blog-automation"
 publish_on:
   - qiita
@@ -208,3 +208,15 @@ Markdown一枚で一気に公開できるから、書くことに集中できる
 
 もう「どこに書こうかな」って悩まなくていい。
 あとは**書く習慣だけ**を磨けばいい。
+
+---
+
+## 追記（2026-08-25）: 自動化は「動く」だけでなく、無駄に動かさない
+
+運用を続ける中で、private repository のGitHub Actions利用枠を使い切り、投稿ジョブを起動できない状態を経験しました。
+
+そこで、重い前処理の常時実行をやめる、変更された記事だけを投稿する、既知の401エラーがあるX連携は自動再試行しない、といった修正を入れています。
+
+実際に直した内容と、CIの利用時間を減らす考え方は次の記事にまとめました。
+
+👉 [GitHub Actionsの2,000分を使い切って分かった、記事自動投稿CIの「無駄な実行」を削る方法](https://zenn.dev/beachone1155/articles/20260825-github-actions-minutes-publish-pipeline)
